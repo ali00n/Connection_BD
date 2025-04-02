@@ -28,12 +28,7 @@ try:
         mycursor.execute(sql)
         print("Tabela 'alunos' criada ou já existente.")
 
-        # Listar todas as tabelas no banco (opcional)
-        mycursor.execute("SHOW TABLES")
-        tabelas = mycursor.fetchall()
-        print("\nTabelas no banco de dados:")
-        for tabela in tabelas:
-            print(tabela[0])
+
 
 
 
