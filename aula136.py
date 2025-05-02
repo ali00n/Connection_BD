@@ -7,8 +7,8 @@ try:
     # Conectando ao banco de dados
     mydb = mysql.connector.connect(
         host="localhost",
-        user="Alisson",
-        password="abc123",
+        user="root",
+        password="root",
         database="mydatabase"
     )
 
