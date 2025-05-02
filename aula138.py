@@ -9,13 +9,6 @@ mydb = mysql.connector.connect(
     database="mydatabase"
 )
 
-# sql = "alter table Alunos ADD sobrenome varchar(255)"
-
-# sql ="Alter table Alunos drop sobrenome"
-
-#sql = "ALTER TABLE Alunos ADD sobrenome VARCHAR(255) AFTER nome"
-
-#sql = "ALTER TABLE Alunos DROP COLUMN sobrenome"
-
+sql = ""
 
 mycursor.execute(sql)
